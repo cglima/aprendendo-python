@@ -14,8 +14,13 @@ Ao executar o projeto a primeira vez:
 
 3. Instalar ou Atualizar o Anaconda
 
-    - Caso tenha o Anaconda instalado,
-atualize o Anaconda.
+    - Após instalar o Anaconda, executar no terminal, o comando.
+
+    ```shell
+    conda init
+    ```
+
+    - Caso tenha o Anaconda instalado, atualize o Anaconda.
 
     ```shell
     conda update
