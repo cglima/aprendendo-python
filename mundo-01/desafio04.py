@@ -6,6 +6,7 @@ e todas as informações possíveis sobre ele.
 """
 
 #n = input('Digite algo: ')
+#print(type(n))
 #print(n.isnumeric())
 
 #algo = input('Digite algo: ')
