@@ -45,3 +45,11 @@ Ao executar o projeto a primeira vez:
     ```shell
     conda activate ./.venv
     ```
+
+5. Ativando o terminal python
+
+   ```shell
+   python
+   ```
+
+Pronto! o ambiente está pronto, pode fazer seus programas!!!
