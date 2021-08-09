@@ -61,3 +61,30 @@ Usando função print() no Python 3.6
 >>> print('A soma entre {} e {} vale {}'.format(n1, n2, s))
 A soma entre 2 e 1 vale 3
 ```
+
+## SAIBA MAIS
+
+- O método 'isnumeric' verifica se é possível converter o valor que está na entrada em um número com o tipo primitivo antes dele (int, float).
+
+```python
+>>> n = input('Digite algo: ')
+Digite algo: oi
+>>> print(n.isnumeric())
+False
+```
+
+```python
+>>> n = input('Digite algo: ')
+Digite algo: 3
+>>> print(n.isnumeric())
+True
+```
+
+- verificando se a variavel é alfabeto
+
+```python
+>>> n = input('Digite algo: ')
+Digite algo: abc
+>>> print(n.isalpha())
+True
+```
