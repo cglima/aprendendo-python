@@ -6,10 +6,11 @@ e raiz quadrada.
 n = int(input('Digite um número: '))
 
 #dobro do número
-dobro = 2 * n
+dobro = n * 2
 #triplo do número
-triplo = 3 * n
+triplo = n * 3
 #raiz quadrada do número
-raiz = float(n) ** 0.5
+raiz = n ** (1/2)
 
-print('\n O número é {} \n O dobro desse número é {} \n O triplo desse numero é {} \n E a raiz quadrada é {:.3} \n' .format(n, dobro, triplo, raiz))
+print('\n O número é {} \n O dobro desse número é {} \n O triplo desse numero é {} \n E a raiz quadrada é {:.2f} \n' .format(n, dobro, triplo, raiz))
+
