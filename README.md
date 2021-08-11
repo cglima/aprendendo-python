@@ -53,3 +53,12 @@ Ao executar o projeto a primeira vez:
    ```
 
 Pronto! o ambiente está pronto, pode fazer seus programas!!!
+
+## Requerimentos extras
+
+1. Instalar bibliotecas no projeto
+    - Basta colocar no arquivo 'requeriments.txt' o nome da biblioteca que se quer instalar
+
+    ```python
+    pip install -r requirements.txt
+    ```
