@@ -16,5 +16,6 @@ print('O nome completo em minúscula fica assim: {}'.format(minuscula))
 print('O nome completo tem {} letras'.format(len(nome) - nome.count(' ')))
 
 #print('O primeiro nome tem {} letras'.format(nome.find(' ')))
+
 separa = nome.split()
 print('Seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
