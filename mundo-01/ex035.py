@@ -3,7 +3,7 @@ Desenvolva um programa que leia o comprimento de três retas e diga a usuário s
 elas podem ou não formar um triângulo.
 """
 
-print('-='*10, 'ANALISADOR DE TRIÂNGULOS', '-='*10)
+print('-='*10, 'ANALISADOR DE TRIÂNGULOS', '=-'*10)
 
 reta1 = float(input('Comprimento da reta 1: '))
 reta2 = float(input('Comprimento da reta 2: '))
