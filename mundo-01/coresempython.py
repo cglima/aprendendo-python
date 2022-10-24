@@ -19,3 +19,4 @@ cores = {'limpa':'\033[m',
 'amarelo':'\033[33m',
 'pretoebranco':'\033[7;30m'}
 print('Olá! Muito prazer em te conhecer, {}{}{}!!!'.format(cores['pretoebranco'],nome, cores['limpa']))
+print(f'Olá {cores["amarelo"]}! Muito prazer em te conhecer, {nome}{cores["limpa"]}!!!')
